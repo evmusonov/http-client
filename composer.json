@@ -1,0 +1,29 @@
+{
+    "name": "evmusonov/http-client",
+    "description": "Simple HTTP client",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Evgeny Musonov",
+            "email": "evmusonov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-curl": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Evmusonov\\HttpClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Evmusonov\\Tests\\": "tests/"
+        }
+    }
+}
